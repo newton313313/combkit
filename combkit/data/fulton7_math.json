@@ -1,0 +1,1316 @@
+{
+  "shape21": {
+    "lambda": [
+      2,
+      1
+    ],
+    "transpose": [
+      2,
+      1
+    ],
+    "Ta": [
+      [
+        1,
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "Tb": [
+      [
+        1,
+        3
+      ],
+      [
+        2
+      ]
+    ],
+    "tabloids": {
+      "t1": [
+        [
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "t2": [
+        [
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "t3": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    "row_group_Ta": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        1,
+        3
+      ]
+    ],
+    "column_group_Ta": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "va": [
+      -1,
+      0,
+      1
+    ],
+    "vb": [
+      -1,
+      1,
+      0
+    ],
+    "sum_direction": [
+      1,
+      1,
+      1
+    ],
+    "all_numberings": [
+      {
+        "rows": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "v_terms": {
+          "1,2/3": 1,
+          "2,3/1": -1
+        },
+        "specht_coordinates": [
+          1,
+          0
+        ]
+      },
+      {
+        "rows": [
+          [
+            1,
+            3
+          ],
+          [
+            2
+          ]
+        ],
+        "v_terms": {
+          "1,3/2": 1,
+          "2,3/1": -1
+        },
+        "specht_coordinates": [
+          0,
+          1
+        ]
+      },
+      {
+        "rows": [
+          [
+            2,
+            1
+          ],
+          [
+            3
+          ]
+        ],
+        "v_terms": {
+          "1,2/3": 1,
+          "1,3/2": -1
+        },
+        "specht_coordinates": [
+          1,
+          -1
+        ]
+      },
+      {
+        "rows": [
+          [
+            2,
+            3
+          ],
+          [
+            1
+          ]
+        ],
+        "v_terms": {
+          "2,3/1": 1,
+          "1,3/2": -1
+        },
+        "specht_coordinates": [
+          0,
+          -1
+        ]
+      },
+      {
+        "rows": [
+          [
+            3,
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "v_terms": {
+          "1,3/2": 1,
+          "1,2/3": -1
+        },
+        "specht_coordinates": [
+          -1,
+          1
+        ]
+      },
+      {
+        "rows": [
+          [
+            3,
+            2
+          ],
+          [
+            1
+          ]
+        ],
+        "v_terms": {
+          "2,3/1": 1,
+          "1,2/3": -1
+        },
+        "specht_coordinates": [
+          -1,
+          0
+        ]
+      }
+    ]
+  },
+  "shape32": {
+    "lambda": [
+      3,
+      2
+    ],
+    "transpose": [
+      2,
+      2,
+      1
+    ],
+    "standard": [
+      [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    ],
+    "f": 5,
+    "row_group_size": 12,
+    "column_group_size": 4,
+    "dim_M": 10,
+    "hooks": [
+      [
+        4,
+        3,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "hook_product": 24
+  },
+  "collision": {
+    "T": [
+      [
+        1,
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "Tprime": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "pair": [
+      1,
+      3
+    ],
+    "tau": [
+      3,
+      2,
+      1
+    ],
+    "same_shape_no_collision": [
+      [
+        3,
+        2
+      ],
+      [
+        1
+      ]
+    ],
+    "wide_shape": {
+      "T": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "Tprime": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "pair": [
+        1,
+        4
+      ]
+    },
+    "incomparable": [
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        1,
+        1
+      ]
+    ],
+    "partial_sums": [
+      [
+        3,
+        6,
+        6
+      ],
+      [
+        4,
+        5,
+        6
+      ]
+    ]
+  },
+  "plane21": {
+    "orthonormal_basis": [
+      "(-1,1,0)/sqrt(2)",
+      "(-1,-1,2)/sqrt(6)"
+    ],
+    "projected_t1": [
+      "-1/sqrt(2)",
+      "-1/sqrt(6)"
+    ],
+    "projected_t2": [
+      "1/sqrt(2)",
+      "-1/sqrt(6)"
+    ],
+    "projected_t3": [
+      "0",
+      "2/sqrt(6)"
+    ],
+    "rho12_orthonormal": [
+      [
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "rho23_orthonormal": [
+      [
+        "1/2",
+        "sqrt(3)/2"
+      ],
+      [
+        "sqrt(3)/2",
+        "-1/2"
+      ]
+    ],
+    "rho123_orthonormal": [
+      [
+        "-1/2",
+        "-sqrt(3)/2"
+      ],
+      [
+        "sqrt(3)/2",
+        "-1/2"
+      ]
+    ],
+    "warning": "Projected vertices are vectors t_i - (t1+t2+t3)/3; they are not the original t_i."
+  },
+  "matrices21": {
+    "basis": [
+      "va",
+      "vb"
+    ],
+    "matrix_columns_are_images": true,
+    "rho12": [
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        -1
+      ]
+    ],
+    "rho23": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "rho123": [
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        -1
+      ]
+    ],
+    "rho12_va": [
+      1,
+      -1
+    ],
+    "rho12_vb": [
+      0,
+      -1
+    ],
+    "rho23_va": [
+      0,
+      1
+    ],
+    "rho23_vb": [
+      1,
+      0
+    ]
+  },
+  "character_S3": {
+    "types": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3
+      ]
+    ],
+    "sizes": [
+      1,
+      3,
+      2
+    ],
+    "z": [
+      6,
+      2,
+      3
+    ],
+    "specht": {
+      "3": [
+        1,
+        1,
+        1
+      ],
+      "21": [
+        2,
+        0,
+        -1
+      ],
+      "111": [
+        1,
+        -1,
+        1
+      ]
+    },
+    "permutation": {
+      "3": [
+        1,
+        1,
+        1
+      ],
+      "21": [
+        3,
+        1,
+        0
+      ],
+      "111": [
+        6,
+        0,
+        0
+      ]
+    },
+    "regular_multiplicities": [
+      1,
+      2,
+      1
+    ],
+    "regular_dimensions": [
+      1,
+      2,
+      1
+    ],
+    "squared_dimension_sum": 6
+  },
+  "permutation_char32": {
+    "lambda": [
+      3,
+      2
+    ],
+    "mu": [
+      2,
+      2,
+      1
+    ],
+    "permutation": [
+      2,
+      1,
+      4,
+      3,
+      5
+    ],
+    "cycles": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "fixed_tabloids": [
+      [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    ],
+    "polynomial": "(x1^2+x2^2)^2*(x1+x2)",
+    "coefficient_target": [
+      3,
+      2
+    ],
+    "character": 2
+  },
+  "young221": {
+    "mu": [
+      2,
+      2,
+      1
+    ],
+    "dim_M": 30,
+    "components": [
+      {
+        "lambda": [
+          5
+        ],
+        "K": 1,
+        "f": 1,
+        "semistandard": [
+          [
+            [
+              1,
+              1,
+              2,
+              2,
+              3
+            ]
+          ]
+        ]
+      },
+      {
+        "lambda": [
+          4,
+          1
+        ],
+        "K": 2,
+        "f": 4,
+        "semistandard": [
+          [
+            [
+              1,
+              1,
+              2,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              1,
+              2,
+              3
+            ],
+            [
+              2
+            ]
+          ]
+        ]
+      },
+      {
+        "lambda": [
+          3,
+          2
+        ],
+        "K": 2,
+        "f": 5,
+        "semistandard": [
+          [
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        ]
+      },
+      {
+        "lambda": [
+          3,
+          1,
+          1
+        ],
+        "K": 1,
+        "f": 6,
+        "semistandard": [
+          [
+            [
+              1,
+              1,
+              2
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        ]
+      },
+      {
+        "lambda": [
+          2,
+          2,
+          1
+        ],
+        "K": 1,
+        "f": 5,
+        "semistandard": [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        ]
+      }
+    ],
+    "warning": "Sagan OCR misreads shape (3,1,1) as (3,3,1); use corrected data."
+  },
+  "symmetric_functions": {
+    "h0": "1",
+    "hnegative": "0",
+    "h2": "sum_{i<=j} x_i*x_j",
+    "e2": "sum_{i<j} x_i*x_j",
+    "p2": "sum_i x_i^2",
+    "schur21": "h2*h1-h3",
+    "h21": "s3+s21",
+    "h111": "s3+2*s21+s111",
+    "p111": "s3+2*s21+s111",
+    "p21": "s3-s111",
+    "p3": "s3-s21+s111",
+    "frobenius_s21": "(p1^3-p3)/3",
+    "omega_p_r": "(-1)^(r-1)*p_r"
+  },
+  "frobenius21": {
+    "lambda": [
+      2,
+      1
+    ],
+    "k": 2,
+    "ell": [
+      3,
+      1
+    ],
+    "vandermonde": "x1-x2",
+    "targets": [
+      {
+        "mu": [
+          1,
+          1,
+          1
+        ],
+        "p": "(x1+x2)^3",
+        "chi": 2
+      },
+      {
+        "mu": [
+          2,
+          1
+        ],
+        "p": "(x1^2+x2^2)*(x1+x2)",
+        "chi": 0
+      },
+      {
+        "mu": [
+          3
+        ],
+        "p": "x1^3+x2^3",
+        "chi": -1
+      }
+    ]
+  },
+  "branching": {
+    "remove21": [
+      [
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "f_remove": [
+      1,
+      1
+    ],
+    "add21": [
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ],
+    "f_add": [
+      3,
+      2,
+      3
+    ],
+    "young_lattice_0_to_4": [
+      [],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "restriction_basis": {
+      "shape2": "2*va-vb",
+      "shape11": "vb"
+    },
+    "restriction_eigenvalues": [
+      1,
+      -1
+    ],
+    "induced_dim": 8
+  },
+  "straightening21": {
+    "input": [
+      [
+        2,
+        1
+      ],
+      [
+        3
+      ]
+    ],
+    "raw_terms": [
+      [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ]
+    ],
+    "sorted_terms": [
+      {
+        "coefficient": 1,
+        "rows": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "coefficient": -1,
+        "rows": [
+          [
+            1,
+            3
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    ],
+    "basis_coordinates": [
+      1,
+      -1
+    ]
+  },
+  "straightening32": {
+    "input": [
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "first_exchange": {
+      "j": 1,
+      "k": 2
+    },
+    "intermediate": [
+      [
+        2,
+        1,
+        5
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "second_exchange": {
+      "j": 1,
+      "k": 1
+    },
+    "raw_terms": [
+      [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    ],
+    "sorted_terms": [
+      {
+        "coefficient": 1,
+        "rows": [
+          [
+            1,
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "coefficient": -1,
+        "rows": [
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      }
+    ],
+    "standard_coordinates": [
+      0,
+      0,
+      1,
+      0,
+      -1
+    ]
+  },
+  "young_symmetrizer21": {
+    "row_perm": [
+      2,
+      1,
+      3
+    ],
+    "col_perm": [
+      3,
+      2,
+      1
+    ],
+    "c_terms": [
+      {
+        "perm": [
+          1,
+          2,
+          3
+        ],
+        "coef": 1
+      },
+      {
+        "perm": [
+          2,
+          1,
+          3
+        ],
+        "coef": 1
+      },
+      {
+        "perm": [
+          3,
+          2,
+          1
+        ],
+        "coef": -1
+      },
+      {
+        "perm": [
+          2,
+          3,
+          1
+        ],
+        "coef": -1
+      }
+    ],
+    "f": 2,
+    "n_lambda": 3,
+    "n_factorial": 6
+  },
+  "hooks": {
+    "21": {
+      "lambda": [
+        2,
+        1
+      ],
+      "hooks": [
+        [
+          3,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "f": 2,
+      "scale": 3
+    },
+    "32": {
+      "lambda": [
+        3,
+        2
+      ],
+      "hooks": [
+        [
+          4,
+          3,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "f": 5,
+      "scale": 24
+    }
+  },
+  "specht_polynomial21": {
+    "Fa": "x1-x3",
+    "Fb": "x1-x2",
+    "nonstandard": "x2-x3",
+    "relation": "x2-x3=(x1-x3)-(x1-x2)"
+  },
+  "mod3": {
+    "field": 3,
+    "invariant_line_S21": [
+      1,
+      1
+    ],
+    "va_plus_vb_in_t_basis_mod3": [
+      1,
+      1,
+      1
+    ],
+    "c_squared_mod3": "0",
+    "c_mod3_is_nonzero": true,
+    "tilde_basis": [
+      "tilde_va=u1+u2",
+      "tilde_vb=u3-u1"
+    ],
+    "oriented_column_basis": {
+      "u1": [
+        [
+          2,
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "u2": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "u3": [
+        [
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "rho12_S": [
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        -1
+      ]
+    ],
+    "rho23_S": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "rho12_tildeS": [
+      [
+        1,
+        -1
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "rho23_tildeS": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "alpha_on_tildeS": [
+      [
+        2,
+        -1
+      ],
+      [
+        -1,
+        2
+      ]
+    ],
+    "beta_on_S": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "alpha_beta": "3*I",
+    "alpha_det": 3,
+    "sign_line_tildeS": [
+      1,
+      -1
+    ],
+    "proof": "S modulo 3 has a trivial line; tildeS modulo 3 has no trivial line, so not isomorphic. A Z isomorphism would reduce to one modulo 3."
+  },
+  "LR_example": {
+    "lambda": [
+      2,
+      1
+    ],
+    "mu": [
+      2,
+      1
+    ],
+    "nu": [
+      3,
+      2,
+      1
+    ],
+    "skew_cells": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "content": [
+      2,
+      1
+    ],
+    "valid_reading_words": [
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        1
+      ]
+    ],
+    "invalid_reading_word": [
+      2,
+      1,
+      1
+    ],
+    "multiplicity": 2
+  }
+}

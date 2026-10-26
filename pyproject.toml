@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "combkit"
+dynamic = ["version"]          # 版本號只寫在 combkit/__init__.py 的 __version__
+description = "Combinatorics x ManimGL toolkit: Catalan objects, generalized Catalan numbers, Raney, Young tableaux (from the catalan930 project)"
+requires-python = ">=3.10"
+# The pure-Python modules need nothing. combkit.draw needs an already installed ManimGL;
+# it is deliberately NOT listed here so that pip never replaces the pinned ManimGL (3b1b/manim commit fafa083).
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["combkit*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "combkit.__version__"}
+
+[tool.setuptools.package-data]
+combkit = ["data/*.json"]

@@ -1,0 +1,15 @@
+# NOTE: keep this file ASCII-only. ManimGL reads it with the system default
+# encoding (cp950 on Traditional-Chinese Windows), so non-ASCII text breaks it.
+#
+# ManimGL automatically loads the custom_config.yml found in the directory
+# where the command is run, so always run manimgl from inside codes/.
+directories:
+  base: ""
+  subdirs:
+    # where videos and images are written
+    output: "renders"
+camera:
+  background_color: "#1C1C1E"
+  fps: 30
+text:
+  font: "Microsoft JhengHei"
